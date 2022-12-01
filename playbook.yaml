@@ -1,6 +1,6 @@
 ---
   - name: Play for Install Nginx on WebServers
-    hosts: localhost
+    hosts: all
     gather_facts: yes
     vars:
       custom_heading: "Welcome To Cloud practice By BhanuChandar Gurajala - Testing AWS"
